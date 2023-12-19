@@ -40,15 +40,15 @@ During the development of the ranking system, several implementation options wer
 
 An important part of training any model is the preparation of features. This applies to a greater extent to LGBMRanker, since the main part of the work on building the model was done for us by wonderful people from Microsoft and all we have to do is select the features and parameters of the model.
 
-The first stage of developing the solution was to split the dataset into train and test parts ([local-validation-dataset.ipynb](/notebooks/local-validation-dataset.ipynb)).
+The first stage of developing the solution was to split the dataset into train and test parts ([local-validation-dataset.ipynb](local-validation-dataset.ipynb)).
 
-In addition to the features obtained from the base dataset, features obtained from the co-visit matrix, which is an important part of modern recommendation systems, also turned out to be useful ([otto-co-matrix (first_ver).ipynb](/notebooks/otto-co-matrix%20( first_ver).ipynb) and [otto-calculate-matrix.ipynb](/notebooks/otto-calculate-matrix.ipynb))
+In addition to the features obtained from the base dataset, features obtained from the co-visit matrix, which is an important part of modern recommendation systems, also turned out to be useful ([otto-co-matrix (first_ver).ipynb](/notebooks/otto-co-matrix%20( first_ver).ipynb) and [otto-calculate-matrix.ipynb](otto-calculate-matrix.ipynb))
 
-The next, also important data for generating features, is the user history, which we get from the basic data ([otto-last-items-with-populars.ipynb](/notebooks/otto-last-items-with-populars.ipynb)) .
+The next, also important data for generating features, is the user history, which we get from the basic data ([otto-last-items-with-populars.ipynb](otto-last-items-with-populars.ipynb)) .
 
-The final generation of features was carried out using various calculations based on all available data, namely: basic dataset data, co-visitation matrix and history ([otto-calculate-features.ipynb](/notebooks/otto-calculate-features.ipynb)).
+The final generation of features was carried out using various calculations based on all available data, namely: basic dataset data, co-visitation matrix and history ([otto-calculate-features.ipynb](otto-calculate-features.ipynb)).
 
-The LGBMRanker model was trained on the received features ([otto-models (first train pipeline with features).ipynb](/notebooks/otto-models%20(first%20train%20pipeline%20with%20features).ipynb), [otto-training- model.ipynb](/notebooks/otto-training-model.ipynb), [otto-new-pipeline-for-ml.ipynb](/notebooks/otto-new-pipeline-for-ml.ipynb)).
+The LGBMRanker model was trained on the received features ([otto-models (first train pipeline with features).ipynb](otto-models%20(first%20train%20pipeline%20with%20features).ipynb), [otto-training- model.ipynb](otto-training-model.ipynb), [otto-new-pipeline-for-ml.ipynb](otto-new-pipeline-for-ml.ipynb)).
 
 ### Own transformer
 
