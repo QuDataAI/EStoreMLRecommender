@@ -46,7 +46,7 @@ In addition to the features obtained from the base dataset, features obtained fr
 
 The next, also important data for generating features, is the user history, which we get from the basic data ([otto-last-items-with-populars.ipynb](otto-last-items-with-populars.ipynb)) .
 
-The final generation of features was carried out using various calculations based on all available data, namely: basic dataset data, co-visitation matrix and history ([otto-calculate-features.ipynb](otto-calculate-features.ipynb)).
+The final generation of features was carried out using various calculations based on all available data, namely: basic dataset data, co-visitation matrix and history ([otto-calculate-features.ipynb](otto-calculatefeatures.ipynb)).
 
 The LGBMRanker model was trained on the received features ([otto-models (first train pipeline with features).ipynb](otto-models-first-train-pipeline-with-features.ipynb), [otto-training- model.ipynb](otto-training-model.ipynb), [otto-new-pipeline-for-ml.ipynb](otto-new-pipeline-for-ml.ipynb)).
 
