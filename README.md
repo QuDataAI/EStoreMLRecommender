@@ -20,7 +20,7 @@ The solution contains notebooks for various stages of data preparation, as well 
 
 The dataset was a sequence of user events by session.
 
-- _s_ession__ - the unique session id
+- __session__ - the unique session id
 - __events__ - the time ordered sequence of events in the session
      - _aid_ - the article id (product code) of the associated event
      - _ts_ - the Unix timestamp of the event
